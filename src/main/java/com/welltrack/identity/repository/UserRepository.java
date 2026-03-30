@@ -1,0 +1,1 @@
+package com.welltrack.identity.repository; import org.springframework.data.jpa.repository.JpaRepository; import com.welltrack.identity.entity.User; public interface UserRepository extends JpaRepository<User,Long>{}

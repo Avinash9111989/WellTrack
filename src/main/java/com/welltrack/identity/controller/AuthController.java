@@ -1,0 +1,1 @@
+package com.welltrack.identity.controller; import org.springframework.web.bind.annotation.*; import lombok.*; import com.welltrack.identity.security.*; @RestController @RequestMapping("/api/auth") @RequiredArgsConstructor public class AuthController{ private final JwtUtil jwt; @PostMapping("/login") public String login(@RequestParam String email){return jwt.gen(email);} }
