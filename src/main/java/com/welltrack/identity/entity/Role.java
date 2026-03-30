@@ -1,1 +1,0 @@
-package com.welltrack.identity.entity; public enum Role {EMPLOYEE,HR,COACH,COMPLIANCE,ADMIN;}

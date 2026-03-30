@@ -1,1 +1,0 @@
-package com.welltrack.identity.config; import org.springframework.context.annotation.*; import io.swagger.v3.oas.models.*; import io.swagger.v3.oas.models.info.*; @Configuration public class SwaggerConfig{ @Bean OpenAPI api(){return new OpenAPI().info(new Info().title("WellTrack IAM").version("1.0"));}}
